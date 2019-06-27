@@ -37,20 +37,21 @@ What follows are examples of Liri running each command:
 
 The main functionality of the app is coded into the 'liri.js' file.
 
-It is brokend down into functions. One function per command that will be run by the user and one to call Liri recursively (a feature that was not included in this versiona as unexpected behaviors occurred proably because of the asynchronous nature of API calls and their responses).
+It is broken down into functions. One function per command that will be run by the user and one to call Liri recursively (a feature that was not included in this version as unexpected behaviors occurred proably because of the asynchronous nature of API calls and their responses).
 
-Beyond the functions used to run each command, the app includes a few more files. The 'keys.js' and '.env' files are employed to hide the API/Client keys from the user as well from any other developers that may eventually work on developing Liri.
+Beyond the functions used to run each command, the app includes a few more files:
+* The 'keys.js' and '.env' files are employed to hide the API/Client keys from the user as well from any other developers that may eventually work on developing Liri.
 
-The '.gitignore' file is created so that when pushing changes to GitHub, all the packages installed locally will not be uploaded and create a larger repository for other developers to download. Instead, a 'package.json' file is created with the purpose of storing the list of required packages for Liri to run and for future developers to use to automatically install said packages in their own environments.
+* The '.gitignore' file is created so that when pushing changes to GitHub, all the packages installed locally will not be uploaded and create a larger repository for other developers to download. Instead, a 'package.json' file is created with the purpose of storing the list of required packages for Liri to run and for future developers to use to automatically install said packages in their own environments.
 
 ## Technologies employed
 
-*Spotify API: Song search
-*OMDB API: Movie search
-*Bands In Town API: Concert search
-*FS package: To read files
-*Inquirer package: Prompt the user for input in the CLI
-*Axios: Make requests to the OMDB ans BandsInTown APIs
+* Spotify API: Song search
+* OMDB API: Movie search
+* Bands In Town API: Concert search
+* FS package: To read files
+* Inquirer package: Prompt the user for input in the CLI
+* Axios: Make requests to the OMDB ans BandsInTown APIs
 
 ## Developers:
 -Daniel Garcia(me): I was the lead and only developer in the creation of this app.
