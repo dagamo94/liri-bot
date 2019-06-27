@@ -12,7 +12,7 @@ Finally, when searching for movie info, Liri will display general movie info suc
 
 ## Instructions
 
-Though it has not yet reached Siri's ability to take commands by voice input, Liri is still very straightforward and simple to use. Once in the CLI, all the user has to do to launch Liri is type 'node liri.js'. Liri will then launch and prompt the user with a list of the aforementioned available commands. The user can then use the 'up' and 'down' arrow keys to navigate through the commands and hit 'enter' to choose one. 
+Though it has not yet reached Siri's ability to take commands by voice input, Liri remains straightforward and simple to use. Once in the CLI, all the user has to do to launch Liri is type 'node liri.js'. Liri will then launch and prompt the user with a list of the aforementioned available commands. The user can then use the 'up' and 'down' arrow keys to navigate through the commands and hit 'enter' to choose one. 
 
 Once a command has been chosen, Liri will then prompt the user to type the desired query term. The user, once satisifed with their query term, will hit enter and wait for a response of the respective API. Once Liri receives a response, it will then display it in an easy to read format for the user to digest.
 
