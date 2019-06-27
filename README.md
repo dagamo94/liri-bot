@@ -1,8 +1,8 @@
 # liri-bot
 
-Liri bot is a Siri alternative isolated to the CLI.
+**Liri bot is a Siri alternative isolated to the CLI.**
 
-Liri allows you to search for concert, songs, and movie information. It also has the capability to read previously loaded commands in a .txt file.
+Liri allows you to search for concert, song, and movie information. It also has the capability to read previously loaded commands in a .txt file.
 
 When searching for concert info, Liri will display the closest upcoming concert date for the desired artist, the venue that will host it, and the location of the venue.
 
@@ -10,27 +10,29 @@ If the user searches for song info, Liri will display the name of the song being
 
 Finally, when searching for movie info, Liri will display general movie info such as: Movie name, release year, ratings, country of production, release language, plot, and actors.
 
+## Instructions
+
 Though it has not yet reached Siri's ability to take commands by voice input, Liri is still very straightforward and simple to use. Once in the CLI, all the user has to do to launch Liri is type 'node liri.js'. Liri will then launch and prompt the user with a list of the aforementioned available commands. The user can then use the 'up' and 'down' arrow keys to navigate through the commands and hit 'enter' to choose one. 
 
 Once a command has been chosen, Liri will then prompt the user to type the desired query term. The user, once satisifed with their query term, will hit enter and wait for a response of the respective API. Once Liri receives a response, it will then display it in an easy to read format for the user to digest.
 
-###Instructions/Examples
+### Examples
 
 What follows are examples of Liri running each command:
-![Instructions examples](screenshots\1.png)
-![Instructions examples](screenshots\2.png)
-![Instructions examples](screenshots\concert-this.png)
-![Instructions examples](screenshots\do-1.png)
-![Instructions examples](screenshots\do-2.png)
-![Instructions examples](screenshots\movie-1.png)
-![Instructions examples](screenshots\movie-2.png)
-![Instructions examples](screenshots\quit-1.png)
-![Instructions examples](screenshots\quit-2.png)
-![Instructions examples](screenshots\spotify-1.png)
-![Instructions examples](screenshots\spotify-2.png)
+![Instructions examples](./screenshots/1.png)
+![Instructions examples](./screenshots/2.png)
+![Instructions examples](./screenshots/concert-this.png)
+![Instructions examples](./screenshots/do-1.png)
+![Instructions examples](./screenshots/do-2.png)
+![Instructions examples](./screenshots/movie-1.png)
+![Instructions examples](./screenshots/movie-2.png)
+![Instructions examples](./screenshots/quit-1.png)
+![Instructions examples](./screenshots/quit-2.png)
+![Instructions examples](./screenshots/spotify-1.png)
+![Instructions examples](./screenshots/spotify-2.png)
 
 
-###App organization
+### App organization
 
 The main functionality of the app is coded into the 'liri.js' file.
 
