@@ -2,6 +2,8 @@
 
 **Liri bot is a Siri alternative isolated to the CLI.**
 
+https://github.com/dagamo94/liri-node-app
+
 Liri allows the user to search for concert, song, and movie information. It also has the capability to read previously loaded commands in a .txt file.
 
 When searching for concert info, Liri will display the closest upcoming concert date for the desired artist, the venue that will host it, and the location of the venue.
