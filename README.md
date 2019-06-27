@@ -54,4 +54,4 @@ Beyond the functions used to run each command, the app includes a few more files
 * Axios: Make requests to the OMDB and BandsInTown APIs
 
 ## Developers:
--Daniel Garcia: I was the lead and only developer in the creation of this app.
+- Daniel Garcia: I was the lead and only developer in the creation of this app.
