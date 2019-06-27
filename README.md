@@ -19,6 +19,7 @@ Once a command has been chosen, Liri will then prompt the user to type the desir
 ### Examples
 
 What follows are examples of Liri running each command:
+
 ![Instructions examples](./screenshots/1.png)
 ![Instructions examples](./screenshots/2.png)
 ![Instructions examples](./screenshots/concert-this.png)
@@ -32,7 +33,7 @@ What follows are examples of Liri running each command:
 ![Instructions examples](./screenshots/spotify-2.png)
 
 
-### App organization
+## App organization
 
 The main functionality of the app is coded into the 'liri.js' file.
 
@@ -42,7 +43,7 @@ Beyond the functions used to run each command, the app includes a few more files
 
 The '.gitignore' file is created so that when pushing changes to GitHub, all the packages installed locally will not be uploaded and create a larger repository for other developers to download. Instead, a 'package.json' file is created with the purpose of storing the list of required packages for Liri to run and for future developers to use to automatically install said packages in their own environments.
 
-###Technologies employed
+## Technologies employed
 
 *Spotify API: Song search
 *OMDB API: Movie search
@@ -51,5 +52,5 @@ The '.gitignore' file is created so that when pushing changes to GitHub, all the
 *Inquirer package: Prompt the user for input in the CLI
 *Axios: Make requests to the OMDB ans BandsInTown APIs
 
-###Developers:
+## Developers:
 -Daniel Garcia(me): I was the lead and only developer in the creation of this app.
