@@ -51,7 +51,7 @@ Beyond the functions used to run each command, the app includes a few more files
 * Bands In Town API: Concert search
 * FS package: To read files
 * Inquirer package: Prompt the user for input in the CLI
-* Axios: Make requests to the OMDB ans BandsInTown APIs
+* Axios: Make requests to the OMDB and BandsInTown APIs
 
 ## Developers:
 -Daniel Garcia(me): I was the lead and only developer in the creation of this app.
