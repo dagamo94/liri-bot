@@ -118,23 +118,63 @@ function simonSays(instruction) {
     });
 }
 
+function runLiri() {
+    inquirer.prompt(
+        {
+            type: "list",
+            choices: ["concert-this", "spotify-this-song", "movie-this", "do-what-it-says", "quit-app"],
+            message: "Choose a command",
+            name: "command"
+        }
+    ).then(function (answers) {
+        switch (answers.command) {
+            case "concert-this":
+                inquirer.prompt(
+                    {
+                        type: "input",
+                        message: "What should I search?",
+                        name: "search"
+                    }
+                ).then(function (input) {
+                    concertSearch(input.search);
+                    // runLiri();
+                });
+                break;
+            case "spotify-this-song":
+                inquirer.prompt(
+                    {
+                        type: "input",
+                        message: "What should I search?",
+                        name: "search"
+                    }
+                ).then(function (input) {
+                    spotSearch(input.search);
+                    // runLiri();
+                }).then();
+                break;
+            case "movie-this":
+                inquirer.prompt(
+                    {
+                        type: "input",
+                        message: "What should I search?",
+                        name: "search"
+                    }
+                ).then(function (input) {
+                    movieSearch(input.search);
+                    // runLiri();
+                });
+                break;
+            case "do-what-it-says":
+                simonSays(input.search);
+                // runLiri();
+                break;
+            case "quit-app":
+                return false;
+            default: return console.log("Please input a valid command");
+        }
+        // runLiri();
 
-switch (command) {
-    case "concert-this":
-        concertSearch(input);
-        break;
-    case "spotify-this-song":
-        spotSearch(input);
-        break;
-    case "movie-this":
-        movieSearch(input);
-        break;
-    case "do-what-it-says":
-        simonSays(input);
-        break;
-    default: return console.log("Please input a valid command");
+    });
 }
 
-
-
-
+runLiri();
